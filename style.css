@@ -13,7 +13,7 @@ body {
 
 header, footer {
   height: 4rem;
-  padding: 1rem 5rem 1rem 1rem;
+  padding: 1rem 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -63,7 +63,7 @@ footer {
 
 .page-decription-container {
   width: 43%;
-  margin-left: 1rem;
+  margin-left: 5rem;
   margin-top: 3rem;
   padding-bottom: 1rem;
 }
@@ -75,13 +75,13 @@ footer {
 }
 
 .headline-title {
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 5rem;
+  line-height: 5rem;
   padding-bottom: 1rem;
 }
 
 .headline-decription {
-  font-size: 10px;
+  font-size: 2rem;
   padding-bottom: 1rem;
 }
 
@@ -93,11 +93,11 @@ footer {
 }
 
 .main-img {
-  width: 40%;
+  width: 45%;
   position: relative;
   top: 10%;
   left: 30%;
-  border-radius: 60px;
+  border-radius: 200px;
   z-index: 1;
 }
 
@@ -112,4 +112,49 @@ footer {
   background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);  
   background: linear-gradient(to top, #B06AB3, #4568DC); 
 }
+
+.course-content {
+  width: 85%;
+  margin: 7rem 10rem 3rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.tile-container {
+  width: 25rem;
+  height: 22rem;
+  border-radius: 20px;
+  margin: 1.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 16px 8px 29px 5px rgba(0,0,0,0.1);
+  border: none;
+}
+
+.first-tile {
+  background: #ee0979;  
+  background: -webkit-linear-gradient(to top, #ff6a00, #ee0979);  
+  background: linear-gradient(to top, #ff6a00, #ee0979); 
+  
+}
+
+.first-tile-text {
+  color: white;
+  font-size: 3rem;
+}
+
+.tile-title {
+  font-size: 2rem;
+}
+
+.tile-description {
+  font-size: 1.5rem;
+}
+
+
 
